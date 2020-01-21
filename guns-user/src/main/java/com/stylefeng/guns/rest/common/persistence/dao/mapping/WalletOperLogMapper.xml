@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stylefeng.guns.rest.common.persistence.dao.WalletOperLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.stylefeng.guns.rest.common.persistence.model.WalletOperLog">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="log_no" property="logNo" />
+        <result column="wallet_oper_type" property="walletOperType" />
+        <result column="out_order_no" property="outOrderNo" />
+        <result column="req_amount" property="reqAmount" />
+        <result column="remarks" property="remarks" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>
